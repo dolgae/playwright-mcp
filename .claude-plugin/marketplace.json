@@ -1,0 +1,14 @@
+{
+  "name": "playwright-marketplace",
+  "description": "Microsoft Playwright MCP Marketplace",
+  "plugins": [
+    {
+      "name": "playwright",
+      "description": "Playwright browser automation MCP server",
+      "source": {
+        "type": "npx",
+        "package": "@playwright/mcp@latest"
+      }
+    }
+  ]
+}
