@@ -1,10 +1,13 @@
 {
-  "name": "playwright-marketplace",
-  "description": "Microsoft Playwright MCP Marketplace",
+  "name": "dolgae-playwright-marketplace",
+  "owner": "dolgae",
+  "description": "Playwright MCP Marketplace",
   "plugins": [
     {
-      "name": "playwright",
-      "description": "Playwright browser automation MCP server",
+      "id": "playwright",
+      "name": "Playwright MCP",
+      "description": "Microsoft Playwright Browser Automation for Claude",
+      "version": "1.0.0",
       "source": {
         "type": "npx",
         "package": "@playwright/mcp@latest"
