@@ -1,17 +1,15 @@
 {
-  "name": "dolgae-playwright-marketplace",
-  "owner": "dolgae",
-  "description": "Playwright MCP Marketplace",
+  "name": "dolgae-marketplace",
+  "owner": {
+    "name": "dolgae"
+  },
+  "version": "1.0.0",
+  "description": "Dolgae's Claude Code Marketplace",
   "plugins": [
     {
-      "id": "playwright",
-      "name": "Playwright MCP",
-      "description": "Microsoft Playwright Browser Automation for Claude",
-      "version": "1.0.0",
-      "source": {
-        "type": "npx",
-        "package": "@playwright/mcp@latest"
-      }
+      "name": "playwright",
+      "source": "./plugins/playwright",
+      "version": "1.0.0"
     }
   ]
 }
